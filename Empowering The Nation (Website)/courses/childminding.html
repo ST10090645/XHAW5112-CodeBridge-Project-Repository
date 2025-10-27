@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Child Minding — Empowering The Nation</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&family=Open+Sans:wght@400;600;700&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- Main styles -->
+  <link rel="stylesheet" href="../mainpages/styles.css" />
+</head>
+<body>
+
+  <!-- Header for the entire website, reused on every page -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="../mainpages/index.html" class="logo" aria-label="Home">
+        <img src="../images/SmallLogo.png" alt="Empowering The Nation Logo" />
+      </a>
+      <a href="../mainpages/index.html" class="brand">Empowering The Nation</a>
+    </div>
+
+    <!-- Navigation links, incorporated CSS in order to created drop-down menus on hover, also used on every page -->
+    <nav class="site-nav" aria-label="Primary">
+      <ul class="container">
+        <li class="has-submenu">
+          <a href="../mainpages/sixmonth.html">Six-month Courses</a>
+          <ul class="submenu">
+            <li><a href="./firstaid.html">First Aid</a></li>
+            <li><a href="./landscaping.html">Landscaping</a></li>
+            <li><a href="./sewing.html">Sewing</a></li>
+            <li><a href="./lifeskills.html">Life Skills</a></li>
+          </ul>
+        </li>
+
+        <li class="has-submenu">
+          <a href="../mainpages/sixweek.html">Short six-week Courses</a>
+          <ul class="submenu">
+            <li><a href="./childminding.html">Child Minding</a></li>
+            <li><a href="./cooking.html">Cooking</a></li>
+            <li><a href="./gardenmaintenance.html">Garden Maintenance</a></li>
+          </ul>
+        </li>
+
+        <li><a href="../mainpages/fees.html">Calculate Fees</a></li>
+        <li><a href="../mainpages/contact.html">Contact Info</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- Hero section that contains a background image, background image is unique to each course page, unlike the rest of the
+     site -->
+    <section class="image-hero image-hero--tight" style="--bg:url('../images/kindergarden.jpg'); --image-wash: 0.70;">
+
+      <div class="container image-hero__inner">
+        <h1 class="section-title">Child Minding</h1>
+
+        <div class="intro-grid">
+          <figure class="intro-illustration">
+            <img src="../images/ChildMinding.png" alt="Child minding illustration" />
+          </figure>
+
+          <div class="intro-copy">
+            <p>
+              Build a strong foundation in caring for infants and toddlers with practical,
+              confidence-building techniques you can use immediately in a home environment.
+              This six-week programme focuses on safety, nurturing routines, and early learning through play.
+            </p>
+
+            <div class="mini-actions" style="margin: 0.75rem 0 0;">
+              <span class="pill pill--accent">Six-week programme</span>
+              <span class="pill">Fee: R750</span>
+            </div>
+
+            <h2 class="intro-subtitle">Who this is for:</h2>
+            <ul class="intro-list">
+              <li>Domestic workers and caregivers supporting families with infants or toddlers.</li>
+              <li>Helpers transitioning into childcare roles at home.</li>
+              <li>Anyone seeking essential skills in child safety, nutrition, and development.</li>
+            </ul>
+
+            <h2 class="intro-subtitle">What you’ll gain:</h2>
+            <ul class="intro-list">
+              <li>Daily care routines that keep children safe, calm, and healthy.</li>
+              <li>Age-appropriate play and stimulation to support early development.</li>
+              <li>Clear communication with parents, including routines and feedback.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      
+    </section>
+
+    <!-- Section contain all the modules within a course -->
+    <section class="container">
+      <h2 class="section-title">Course Modules</h2>
+
+      <div class="module-accordion">
+        <!-- First module is kept expanded by default to show users the functionality, all are able to be expanded or collapsed -->
+        <details class="module card tinted" open>
+          <summary>
+            <span class="module-thumb" style="--thumb:url('../images/ChildMinding.png')"></span>
+            <span class="module-head">
+              <span class="module-title">Birth to six-month needs</span>
+              <span class="module-meta">Safety · Feeding · Soothing</span>
+            </span>
+            <span class="module-hint">
+              <span class="expand">Expand</span>
+              <span class="collapse">Collapse</span>
+            </span>
+          </summary>
+          <div class="module-body">
+            <ul class="checklist">
+              <li>Newborn safety: safe sleep, temperature checks, hygiene basics.</li>
+              <li>Feeding routines and cues (breastmilk/formula handling, burping).</li>
+              <li>Soothing techniques: swaddling, holding, comforting strategies.</li>
+              <li>When to alert parents and how to log daily care notes.</li>
+            </ul>
+          </div>
+        </details>
+
+        <details class="module card tinted">
+          <summary>
+            <span class="module-thumb" style="--thumb:url('../images/ChildMinding.png')"></span>
+            <span class="module-head">
+              <span class="module-title">Seven-month to one-year needs</span>
+              <span class="module-meta">Solids · Motor skills · Routines</span>
+            </span>
+            <span class="module-hint">
+              <span class="expand">Expand</span>
+              <span class="collapse">Collapse</span>
+            </span>
+          </summary>
+          <div class="module-body">
+            <ul class="checklist">
+              <li>Introducing solids safely, textures, and basic allergy awareness.</li>
+              <li>Motor skills: supported sitting, crawling, assisted standing.</li>
+              <li>Play ideas: cause-and-effect toys, sensory baskets, early books.</li>
+              <li>Daily rhythms: naps, feeding windows, bath and bedtime flow.</li>
+            </ul>
+          </div>
+        </details>
+
+        <details class="module card tinted">
+          <summary>
+            <span class="module-thumb" style="--thumb:url('../images/ChildMinding.png')"></span>
+            <span class="module-head">
+              <span class="module-title">Toddler Needs (1–3 years)</span>
+              <span class="module-meta">Positive discipline · Learning through play</span>
+            </span>
+            <span class="module-hint">
+              <span class="expand">Expand</span>
+              <span class="collapse">Collapse</span>
+            </span>
+          </summary>
+          <div class="module-body">
+            <ul class="checklist">
+              <li>Positive discipline: boundaries, consistency, praise, redirection.</li>
+              <li>Language, movement, and social play for growing confidence.</li>
+              <li>Nutrition, hydration, and safe snacking on active days.</li>
+              <li>Hazard awareness: home safety at toddler level.</li>
+            </ul>
+          </div>
+        </details>
+
+        <details class="module card tinted">
+          <summary>
+            <span class="module-thumb" style="--thumb:url('../images/ChildMinding.png')"></span>
+            <span class="module-head">
+              <span class="module-title">Educational toys & Early learning</span>
+              <span class="module-meta">Low-cost activities · Reading · Music</span>
+            </span>
+            <span class="module-hint">
+              <span class="expand">Expand</span>
+              <span class="collapse">Collapse</span>
+            </span>
+          </summary>
+          <div class="module-body">
+            <ul class="checklist">
+              <li>Choosing age-appropriate toys for different stages.</li>
+              <li>Simple, low-cost activities using household items.</li>
+              <li>Reading time and music for attention, memory, and joy.</li>
+              <li>Setting up a calm, inclusive play space at home.</li>
+            </ul>
+          </div>
+        </details>
+      </div>
+    </section>
+
+    <!-- Links leading to other pages of the site -->
+    <section class="container center" style="margin-top: var(--space-6);">
+      <div class="mini-actions" style="justify-content: center;">
+        <a class="btn" href="../mainpages/fees.html">Calculate Fees & Book</a>
+        <a class="btn btn--ghost" href="../mainpages/sixweek.html">Back to Six-week Courses</a>
+        <a class="link-cta" href="../mainpages/contact.html">Get our contact info →</a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer section that is also used on every page of the site, contains social media links and copyright tag -->
+  <footer class="site-footer">
+    <div class="container">
+  <p class="footer-heading">Follow us</p>
+
+  <nav class="social-nav" aria-label="Social media">
+    <ul class="social social--icons">
+      <li>
+        <a href="https://x.com/EmpowerNation22?t=2nMZVBxivO8A-w6UbsI7CQ&s=09" aria-label="Twitter" target="_blank" rel="noopener">
+          <img src="../images/Twitter.png" alt="" width="28" height="28" />
+        </a>
+      </li>
+      <li>
+        <a href="https://www.facebook.com/profile.php?id=61581489944224" aria-label="Facebook" target="_blank" rel="noopener">
+          <img src="../images/Facebook.png" alt="" width="28" height="28" />
+        </a>
+      </li>
+      <li>
+        <a href="https://www.instagram.com/empowering._the.nation/" aria-label="Instagram" target="_blank" rel="noopener">
+          <img src="../images/Instagram.png" alt="" width="28" height="28" />
+        </a>
+      </li>
+      <li>
+        <a href="https://www.youtube.com/channel/UCMPi5QHY3Fj3K7bIvzYLXmw" aria-label="YouTube" target="_blank" rel="noopener">
+          <img src="../images/YouTube.png" alt="" width="28" height="28" />
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+  <br>
+  <p class="copyright">© 2025 Empowering The Nation</p>
+</div>
+  </footer>
+
+</body>
+</html>

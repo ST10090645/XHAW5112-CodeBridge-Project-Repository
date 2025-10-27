@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact — Empowering The Nation</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet"/>
+
+  <!-- Site styles -->
+  <link rel="stylesheet" href="./styles.css"/>
+</head>
+<body>
+
+  <!-- Header for the entire website, reused on every page -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="./index.html" class="logo" aria-label="Home">
+        <img src="../images/SmallLogo.png" alt="Empowering The Nation Logo" />
+      </a>
+      <a href="./index.html" class="brand">Empowering The Nation</a>
+    </div>
+
+    <!-- Navigation links, incorporated CSS in order to created drop-down menus on hover, also used on every page -->
+    <nav class="site-nav" aria-label="Primary">
+      <ul class="container">
+        <li class="has-submenu">
+          <a href="./sixmonth.html">Six-month Courses</a>
+          <ul class="submenu">
+            <li><a href="../courses/firstaid.html">First Aid</a></li>
+            <li><a href="../courses/landscaping.html">Landscaping</a></li>
+            <li><a href="../courses/sewing.html">Sewing</a></li>
+            <li><a href="../courses/lifeskills.html">Life Skills</a></li>
+          </ul>
+        </li>
+        <li class="has-submenu">
+          <a href="./sixweek.html">Short six-week Courses</a>
+          <ul class="submenu">
+            <li><a href="../courses/childminding.html">Child Minding</a></li>
+            <li><a href="../courses/cooking.html">Cooking</a></li>
+            <li><a href="../courses/gardenmaintenance.html">Garden Maintenance</a></li>
+          </ul>
+        </li>
+        <li><a href="./fees.html">Calculate Fees</a></li>
+        <li><a href="./contact.html" aria-current="page">Contact Info</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container contact-page">
+
+    <h1 class="section-title">Contact Us</h1>
+
+    <!-- Card that contains all the general contact information relating to the company-->
+    <section class="card contact-card" aria-labelledby="general-contact">
+      <h2 id="general-contact" class="card__title">General Contact</h2>
+      <ul class="contact-items">
+        <li><strong>Phone:</strong> 011 582 4127</li>
+        <li><strong>Email:</strong> <a href="mailto:EmpoweringNation@gmail.com">EmpoweringNation@gmail.com</a></li>
+        <li><strong>Note:</strong> Operating hours may vary by venue—see details below.</li>
+      </ul>
+      <div class="mini-actions">
+        <a class="btn btn--primary" href="./fees.html">Calculate Fees / Get a Quote</a>
+        <a class="btn btn--ghost" href="./fees.html">Make a Booking</a>
+      </div>
+    </section>
+
+    <section class="venue-list" aria-label="Our venues">
+
+      <!-- Card containing information relating to the Sandton Venue -->
+      <article class="card venue-card">
+        <div class="venue-grid">
+          <div class="venue-info">
+            <h3 class="card__title">Sandton Venue</h3>
+            <ul class="venue-details">
+              <li><strong>Hours:</strong> Mon–Fri, 8:00–16:00</li>
+              <li>
+                <strong>Courses:</strong>
+                Six-month Domestic Worker Training, Six-month Gardener Training,
+                Short Six-week Housekeeping, Short Six-week Basic Cooking
+              </li>
+              <li><strong>Transport:</strong> Close to Gautrain and Taxi Routes</li>
+              <li><strong>Highlight:</strong> Modern facilities with computer labs and demonstration kitchens</li>
+            </ul> <!-- Map embed contained within the card, used within the other location cards as well -->
+            <a class="link-cta" target="_blank" rel="noopener" href="https://maps.google.com/?q=Melrose+Arch,+30+Melrose+Blvd,+Birnam,+Sandton,+2196">Get Directions</a>
+          </div>
+          <div class="map-embed" aria-hidden="true">
+            <iframe
+              title="Map: Sandton Venue"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7163.951029447697!2d28.06361304162977!3d-26.13234132632665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e950d1fb31bc771%3A0x1023c2a325fbebc7!2sMelrose%20Arch%2C%2030%20Melrose%20Blvd%2C%20Birnam%2C%20Sandton%2C%202196!5e0!3m2!1sen!2sza!4v1756298694817!5m2!1sen!2sza"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              allowfullscreen>
+            </iframe>
+          </div>
+        </div>
+      </article>
+
+      <!-- Card containing information relating to the Randburg Venue -->
+      <article class="card venue-card">
+        <div class="venue-grid">
+          <div class="venue-info">
+            <h3 class="card__title">Randburg Venue</h3>
+            <ul class="venue-details">
+              <li><strong>Hours:</strong> Mon–Sat, 9:00–17:00</li>
+              <li>
+                <strong>Courses:</strong>
+                Six-month Childcare Training, Six-month First Aid, Short Six-week Garden Maintenance
+              </li>
+              <li><strong>Transport:</strong> Ample parking; near bus and taxi ranks</li>
+              <li><strong>Highlight:</strong> Hands-on training gardens and childcare practice rooms</li>
+            </ul>
+            <a class="link-cta" target="_blank" rel="noopener" href="https://maps.google.com/?q=Randburg">Get Directions</a>
+          </div>
+          <div class="map-embed" aria-hidden="true">
+            <iframe
+              title="Map: Randburg Venue"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d114513.688117113!2d27.755869564572127!3d-26.24371797409044!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e9574b0839fe795%3A0x4443ba51b0acaf0d!2sRandburg!5e0!3m2!1sen!2sza!4v1757522060708!5m2!1sen!2sza"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              allowfullscreen>
+            </iframe>
+          </div>
+        </div>
+      </article>
+
+      <!-- Card containing information relating to the Soweto Venue -->
+      <article class="card venue-card">
+        <div class="venue-grid">
+          <div class="venue-info">
+            <h3 class="card__title">Soweto Venue</h3>
+            <ul class="venue-details">
+              <li><strong>Hours:</strong> Mon–Fri, 8:00–15:00</li>
+              <li>
+                <strong>Courses:</strong>
+                Six-month Domestic Worker Training, Short Six-week Home Management,
+                Short Six-week Basic Food Preparation, Short Six-week Gardening Skills
+              </li>
+              <li><strong>Transport:</strong> Accessible via Rea Vaya and Taxis</li>
+              <li><strong>Highlight:</strong> Community-centered learning hub with strong local support</li>
+            </ul>
+            <a class="link-cta" target="_blank" rel="noopener" href="https://maps.google.com/?q=Soweto">Get Directions</a>
+          </div>
+          <div class="map-embed" aria-hidden="true">
+            <iframe
+              title="Map: Soweto Venue"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d114513.688117113!2d27.755869564572127!3d-26.24371797409044!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e95a6b1e2746071%3A0x3a0838c21e9e6ddf!2sSoweto!5e0!3m2!1sen!2sza!4v1757521988812!5m2!1sen!2sza"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              allowfullscreen>
+            </iframe>
+          </div>
+        </div>
+      </article>
+
+    </section>
+
+  </main>
+
+  <!-- Call to Action banner near the bottom of the screen that contains links to some other pages of the site -->
+  <section class="cta-band">
+    <div class="container cta-inner">
+      <div>
+        <h2 class="cta-title">Ready to empower your future?</h2>
+        <p class="cta-text">Calculate your fees, get a quote, and a consultant will contact you to confirm.</p>
+      </div>
+      <div class="cta-actions">
+        <a class="btn btn--white" href="./fees.html">Calculate Fees</a>
+        <a class="btn btn--outline-light" href="./fees.html">Make a Booking</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer section that is also used on every page of the site, contains social media links and copyright tag -->
+  <footer class="site-footer">
+    <div class="container">
+  <p class="footer-heading">Follow us</p>
+
+  <nav class="social-nav" aria-label="Social media">
+    <ul class="social social--icons">
+      <li>
+        <a href="https://x.com/EmpowerNation22?t=2nMZVBxivO8A-w6UbsI7CQ&s=09" aria-label="Twitter" target="_blank" rel="noopener">
+          <img src="../images/Twitter.png" alt="" width="28" height="28" />
+        </a>
+      </li>
+      <li>
+        <a href="https://www.facebook.com/profile.php?id=61581489944224" aria-label="Facebook" target="_blank" rel="noopener">
+          <img src="../images/Facebook.png" alt="" width="28" height="28" />
+        </a>
+      </li>
+      <li>
+        <a href="https://www.instagram.com/empowering._the.nation/" aria-label="Instagram" target="_blank" rel="noopener">
+          <img src="../images/Instagram.png" alt="" width="28" height="28" />
+        </a>
+      </li>
+      <li>
+        <a href="https://www.youtube.com/channel/UCMPi5QHY3Fj3K7bIvzYLXmw" aria-label="YouTube" target="_blank" rel="noopener">
+          <img src="../images/YouTube.png" alt="" width="28" height="28" />
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+  <br>
+  <p class="copyright">© 2025 Empowering The Nation</p>
+</div>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Empowering The Nation</title>
+
+  <!-- Web fonts: Montserrat (headings) + Open Sans (body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&family=Open+Sans:wght@400;600;700&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Header for the entire website, reused on every page -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo" aria-label="Home">
+        <img src="../images/SmallLogo.png" alt="Empowering The Nation Logo">
+      </a>
+      <a href="index.html" class="brand">Empowering The Nation</a>
+    </div>
+
+    <!-- Navigation links, incorporated CSS in order to created drop-down menus on hover, also used on every page -->
+    <nav class="site-nav" aria-label="Primary">
+  <ul class="container">
+    <li class="has-submenu">
+      <a href="sixmonth.html">Six-month Courses</a>
+      <ul class="submenu">
+        <li><a href="../courses/firstaid.html">First Aid</a></li>
+        <li><a href="../courses/landscaping.html">Landscaping</a></li>
+        <li><a href="../courses/sewing.html">Sewing</a></li>
+        <li><a href="../courses/lifeskills.html">Life Skills</a></li>
+      </ul>
+    </li>
+
+    <li class="has-submenu">
+      <a href="sixweek.html">Short six-week Courses</a>
+      <ul class="submenu">
+        <li><a href="../courses/childminding.html">Child Minding</a></li>
+        <li><a href="../courses/cooking.html">Cooking</a></li>
+        <li><a href="../courses/gardenmaintenance.html">Garden Maintenance</a></li>
+      </ul>
+    </li>
+
+    <li><a href="fees.html">Calculate Fees</a></li>
+    <li><a href="contact.html">Contact Info</a></li>
+  </ul>
+</nav>
+
+  </header>
+
+  <!-- Hero section that contains a background image, the logo and motto of the company -->
+  <section class="hero">
+    <div class="hero__bg" aria-hidden="true"></div>
+    <div class="hero__content container">
+      <img class="hero__logo" src="../images/SmallLogo.png" alt="Empowering The Nation emblem">
+      <p class="hero__tagline"><em>Empowering and uplifting those around us</em></p>
+      <p class="hero__quote">
+        “In order to build our nation, we must all exceed our own expectations.”
+        <cite>— Nelson Mandela</cite>
+      </p>
+    </div>
+  </section>
+
+  <main>
+
+    <!--  Our Mission section -->
+    <section class="container">
+      <h2 class="section-title">Our Mission</h2>
+
+      <div class="cards-2">
+        <!-- "Who we are" card-->
+        <article class="card tinted">
+          <div class="card__header">
+            <span class="pill">Who we are</span>
+            <h3 class="card__title">Empowering The Nation</h3>
+          </div>
+          <div class="grid-2-tight">
+            <div class="flow">
+              <p>Established in 2022 in Johannesburg, we help domestic workers and gardeners gain marketable skills to unlock opportunities and dignity in work.</p>
+              <a class="link-cta" href="contact.html">Get our contact info →</a>
+            </div>
+            <figure class="media">
+              <img src="../images/IndexImageOne.png" alt="Training session illustration">
+            </figure>
+          </div>
+        </article>
+
+        <!-- "What we do" card -->
+        <article class="card tinted card--skills">
+          <div class="card__header">
+            <span class="pill pill--accent">What we do</span>
+            <h3 class="card__title">Skills for real jobs</h3>
+          </div>
+          <div class="grid-2-tight">
+            <div class="flow">
+              <p>From short courses to longer learnerships, our programmes build practical, in-demand skills for households and gardens.</p>
+              <div class="mini-actions">
+                <a class="btn" href="sixmonth.html">Six-month Courses</a>
+                <a class="btn btn--ghost" href="sixweek.html">Six-week Courses</a>
+              </div>
+            </div>
+            <figure class="media">
+              <img src="../images/IndexImageTwo.png" alt="Learners practicing skills">
+            </figure>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Call to Action banner near the bottom of the screen that contains links to some other pages of the site -->
+    <section class="cta-band" aria-label="Call to action">
+      <div class="container cta-inner">
+        <div class="cta-content">
+          <h3 class="cta-title">Ready to empower your future?</h3>
+          <p class="cta-text">Choose a course or reach out—it's quick and easy.</p>
+        </div>
+        <div class="cta-actions">
+          <a class="btn btn--white" href="fees.html">Calculate Fees & Book</a>
+          <a class="btn btn--outline-light" href="contact.html">Contact Us</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer section that is also used on every page of the site, contains social media links and copyright tag -->
+  <footer class="site-footer">
+    <div class="container">
+  <p class="footer-heading">Follow us</p>
+
+  <nav class="social-nav" aria-label="Social media">
+    <ul class="social social--icons">
+      <li>
+        <a href="https://x.com/EmpowerNation22?t=2nMZVBxivO8A-w6UbsI7CQ&s=09" aria-label="Twitter" target="_blank" rel="noopener">
+          <img src="../images/Twitter.png" alt="" width="28" height="28" />
+        </a>
+      </li>
+      <li>
+        <a href="https://www.facebook.com/profile.php?id=61581489944224" aria-label="Facebook" target="_blank" rel="noopener">
+          <img src="../images/Facebook.png" alt="" width="28" height="28" />
+        </a>
+      </li>
+      <li>
+        <a href="https://www.instagram.com/empowering._the.nation/" aria-label="Instagram" target="_blank" rel="noopener">
+          <img src="../images/Instagram.png" alt="" width="28" height="28" />
+        </a>
+      </li>
+      <li>
+        <a href="https://www.youtube.com/channel/UCMPi5QHY3Fj3K7bIvzYLXmw" aria-label="YouTube" target="_blank" rel="noopener">
+          <img src="../images/YouTube.png" alt="" width="28" height="28" />
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+  <br>
+  <p class="copyright">© 2025 Empowering The Nation</p>
+</div>
+
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Fees & Booking — Empowering The Nation</title>
+
+  <!-- Fonts (consistent with site) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet"/>
+
+  <!-- Site styles -->
+  <link rel="stylesheet" href="./styles.css"/>
+</head>
+<body>
+
+  <!-- Header for the entire website, reused on every page -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="./index.html" class="logo" aria-label="Home">
+        <img src="../images/SmallLogo.png" alt="Empowering The Nation Logo" />
+      </a>
+      <a href="./index.html" class="brand">Empowering The Nation</a>
+    </div>
+
+    <!-- Navigation links, incorporated CSS in order to created drop-down menus on hover, also used on every page -->
+    <nav class="site-nav" aria-label="Primary">
+      <ul class="container">
+        <li class="has-submenu">
+          <a href="./sixmonth.html">Six-month Courses</a>
+          <ul class="submenu">
+            <li><a href="../courses/firstaid.html">First Aid</a></li>
+            <li><a href="../courses/landscaping.html">Landscaping</a></li>
+            <li><a href="../courses/sewing.html">Sewing</a></li>
+            <li><a href="../courses/lifeskills.html">Life Skills</a></li>
+          </ul>
+        </li>
+        <li class="has-submenu">
+          <a href="./sixweek.html">Short six-week Courses</a>
+          <ul class="submenu">
+            <li><a href="../courses/childminding.html">Child Minding</a></li>
+            <li><a href="../courses/cooking.html">Cooking</a></li>
+            <li><a href="../courses/gardenmaintenance.html">Garden Maintenance</a></li>
+          </ul>
+        </li>
+        <li><a href="./fees.html" aria-current="page">Calculate Fees</a></li>
+        <li><a href="./contact.html">Contact Info</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container fees-page">
+
+    <!-- Section dedicated to informing users on how to use the page and how discounts are calculated -->
+    <section class="notice notice--info" aria-labelledby="fees-guide">
+      <h2 id="fees-guide">How quotes & discounts work</h2>
+      <ul>
+        <li>Select your courses and click <strong>Calculate Fees</strong> to see a quote.</li>
+        <li>Multi-course discount: <strong>2 courses = 5%</strong>, <strong>3 = 10%</strong>, <strong>4+ = 15%</strong>.</li>
+        <li>Happy with your quote? Click <strong>Make a Booking</strong> and a consultant will contact you.</li>
+      </ul>
+    </section>
+
+    <!-- Stylized form that allows users to enter their contact information which will be sent for bookings -->
+    <section aria-labelledby="contact-info">
+      <h2 id="contact-info">Your Contact Info</h2>
+      <div class="form-grid">
+        <label class="field">
+          <span class="field__label">First Name</span>
+          <input id="firstName" type="text" placeholder="First Name" />
+        </label>
+
+        <label class="field">
+          <span class="field__label">Last Name</span>
+          <input id="lastName" type="text" placeholder="Last Name" />
+        </label>
+
+        <label class="field">
+          <span class="field__label">Age</span>
+          <input id="age" type="text" placeholder="Age" inputmode="numeric" />
+        </label>
+
+        <label class="field">
+          <span class="field__label">Email</span>
+          <input type="email" name="email" id="email" placeholder="you@example.com" required />
+        </label>
+
+        <label class="field">
+          <span class="field__label">Phone</span>
+          <input id="phone" type="text" placeholder="Phone" />
+        </label>
+      </div>
+    </section>
+
+    <!-- Checkboxes that allow users to select courses they wish to book -->
+    <section aria-labelledby="choose-courses">
+      <h2 id="choose-courses">Choose Your Courses</h2>
+      <p class="muted">(After checking all the desired boxes, click the “Calculate Fees” button.)</p>
+
+      <!-- Six-month courses -->
+      <h3 class="group-title">Six-month Courses</h3>
+      <div class="course-list">
+        <div class="course-item">
+          <input class="course sr-only" type="checkbox" id="c-firstaid-6m" value="First aid (R1500)|1500">
+          <label for="c-firstaid-6m">
+            <span class="course-item__name">First Aid</span>
+            <span class="course-item__fee">R1500</span>
+          </label>
+        </div>
+
+        <div class="course-item">
+          <input class="course sr-only" type="checkbox" id="c-landscaping-6m" value="Landscaping (R1500)|1500">
+          <label for="c-landscaping-6m">
+            <span class="course-item__name">Landscaping</span>
+            <span class="course-item__fee">R1500</span>
+          </label>
+        </div>
+
+        <div class="course-item">
+          <input class="course sr-only" type="checkbox" id="c-sewing-6m" value="Sewing (R1500)|1500">
+          <label for="c-sewing-6m">
+            <span class="course-item__name">Sewing</span>
+            <span class="course-item__fee">R1500</span>
+          </label>
+        </div>
+
+        <div class="course-item">
+          <input class="course sr-only" type="checkbox" id="c-lifeskills-6m" value="Life skills (R1500)|1500">
+          <label for="c-lifeskills-6m">
+            <span class="course-item__name">Life Skills</span>
+            <span class="course-item__fee">R1500</span>
+          </label>
+        </div>
+      </div>
+
+      <!-- Six-week course -->
+      <h3 class="group-title">Short Six-week Courses</h3>
+      <div class="course-list">
+        <div class="course-item">
+          <input class="course sr-only" type="checkbox" id="c-childminding-6w" value="Child minding (R750)|750">
+          <label for="c-childminding-6w">
+            <span class="course-item__name">Child Minding</span>
+            <span class="course-item__fee">R750</span>
+          </label>
+        </div>
+
+        <div class="course-item">
+          <input class="course sr-only" type="checkbox" id="c-cooking-6w" value="Cooking (R750)|750">
+          <label for="c-cooking-6w">
+            <span class="course-item__name">Cooking</span>
+            <span class="course-item__fee">R750</span>
+          </label>
+        </div>
+
+        <div class="course-item">
+          <input class="course sr-only" type="checkbox" id="c-garden-6w" value="Garden maintenance (R750)|750">
+          <label for="c-garden-6w">
+            <span class="course-item__name">Garden Maintenance</span>
+            <span class="course-item__fee">R750</span>
+          </label>
+        </div>
+      </div>
+    </section>
+
+    <!-- Actions -->
+    <p class="actions">
+      <button id="calcBtn" class="btn btn--primary" type="button">Calculate Fees</button>
+      <button id="bookingBtn" class="btn" type="button">Make a Booking</button>
+      <a href="./contact.html" class="btn btn--ghost">Get our Contact Info</a>
+    </p>
+
+    <!-- Section that displays the calculated fees after the user has chosen their course and clicked the "Calculate Fees"
+     button -->
+    <section class="quote-card" aria-labelledby="your-quote">
+      <h2 class="quote-title" id="your-quote">Your Quote</h2>
+      <textarea id="output" rows="12" aria-label="Calculated quote" style="height: 280px; resize: none;"></textarea>
+      <p class="quote-note muted">This is an estimate. A consultant will confirm after you book.</p>
+    </section>
+
+  </main>
+
+  <!-- Footer section that is also used on every page of the site, contains social media links and copyright tag -->
+  <footer class="site-footer">
+    <div class="container">
+  <p class="footer-heading">Follow us</p>
+
+  <nav class="social-nav" aria-label="Social media">
+    <ul class="social social--icons">
+      <li>
+        <a href="https://x.com/EmpowerNation22?t=2nMZVBxivO8A-w6UbsI7CQ&s=09" aria-label="Twitter" target="_blank" rel="noopener">
+          <img src="../images/Twitter.png" alt="" width="28" height="28" />
+        </a>
+      </li>
+      <li>
+        <a href="https://www.facebook.com/profile.php?id=61581489944224" aria-label="Facebook" target="_blank" rel="noopener">
+          <img src="../images/Facebook.png" alt="" width="28" height="28" />
+        </a>
+      </li>
+      <li>
+        <a href="https://www.instagram.com/empowering._the.nation/" aria-label="Instagram" target="_blank" rel="noopener">
+          <img src="../images/Instagram.png" alt="" width="28" height="28" />
+        </a>
+      </li>
+      <li>
+        <a href="https://www.youtube.com/channel/UCMPi5QHY3Fj3K7bIvzYLXmw" aria-label="YouTube" target="_blank" rel="noopener">
+          <img src="../images/YouTube.png" alt="" width="28" height="28" />
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+  <br>
+  <p class="copyright">© 2025 Empowering The Nation</p>
+</div>
+  </footer>
+
+  <!-- Linking the calculate function from the javascript page to this page -->
+  <script src="./calcfees.js"></script>
+</body>
+</html>
