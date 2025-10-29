@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_blue">
+
+    <!-- ===== HEADER / TOP BAR ===== -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@color/header_black"
+        android:gravity="center_vertical"
+        android:padding="8dp">
+
+        <!-- Placeholder for Logo -->
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/logo"
+            android:layout_marginEnd="8dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Empowering The Nation"
+            android:textColor="@color/button_white"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    <!-- ===== MENU BAR ===== -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/button_white"
+        android:weightSum="2">
+
+        <Spinner
+            android:id="@+id/spinnerSixMonth"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:entries="@array/six_month_courses"
+            android:spinnerMode="dropdown"
+            android:background="@color/button_white" />
+
+        <Spinner
+            android:id="@+id/spinnerSixWeek"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:entries="@array/six_week_courses"
+            android:spinnerMode="dropdown"
+            android:background="@color/button_white" />
+    </LinearLayout>
+
+    <!-- ===== SECOND MENU BAR ===== -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/button_white"
+        android:weightSum="2">
+
+        <Button
+            android:id="@+id/btnCalculateFees"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/button_white"
+            android:text="Calculate Fees"
+            android:textColor="#18FFFF" />
+
+        <Button
+            android:id="@+id/btnContactInfo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/button_white"
+            android:text="Contact Info"
+            android:textColor="#18FFFF" />
+    </LinearLayout>
+
+    <!-- MAIN CONTENT -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!-- Section 1 -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="What is Empowering The Nation?"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_marginBottom="4dp"
+                android:textColor="@color/text_black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Empowering the Nation was established in 2022 and offers courses in Johannesburg..."
+                android:textColor="@color/text_black"
+                android:layout_marginBottom="12dp" />
+
+            <!-- Placeholder Image -->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:src="@drawable/homescreen1"
+                android:scaleType="centerCrop"
+                android:layout_marginBottom="16dp"/>
+
+            <!-- Section 2 -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="What we do:"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_marginBottom="4dp"
+                android:textColor="@color/text_black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="We provide domestic workers and gardeners with training programs..."
+                android:textColor="@color/text_black"
+                android:layout_marginBottom="12dp" />
+
+            <!-- Placeholder Image -->
+
+            <!-- Summary Section -->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginBottom="16dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/homescreen2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Summary of Courses:"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_marginBottom="8dp"
+                android:textColor="@color/text_black" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <Button
+                    android:id="@+id/btnSixMonth"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="4dp"
+                    android:layout_weight="1"
+                    android:background="@color/button_white"
+                    android:text="Six-Month Courses"
+                    android:textColor="#18FFFF" />
+
+                <Button
+                    android:id="@+id/btnSixWeek"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="4dp"
+                    android:layout_weight="1"
+                    android:background="@color/button_white"
+                    android:text="Six-Week Courses"
+                    android:textColor="#18FFFF" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- ===== FOOTER WITH ICON LINKS ===== -->
+    <LinearLayout
+        android:id="@+id/socialLinksLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="#000000"
+        android:layout_marginTop="24dp">
+
+        <TextView
+            android:id="@+id/followUsText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Follow us:"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <!-- Facebook Icon -->
+            <ImageButton
+                android:id="@+id/btnFacebook"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@drawable/facebook"
+                android:background="@android:color/transparent"
+                android:contentDescription="Facebook"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+
+                android:layout_marginEnd="20dp"/>
+
+            <!-- Instagram Icon -->
+            <ImageButton
+                android:id="@+id/btnInstagram"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@drawable/instagram"
+                android:background="@android:color/transparent"
+                android:contentDescription="Instagram"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+
+                android:layout_marginEnd="20dp"/>
+
+            <!-- X Icon -->
+            <ImageButton
+                android:id="@+id/btnX"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@drawable/x"
+                android:background="@android:color/transparent"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:contentDescription="X"
+                android:layout_marginEnd="20dp"/>
+
+            <!-- YouTube Icon -->
+            <ImageButton
+                android:id="@+id/btnYoutube"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@drawable/youtube"
+                android:background="@android:color/transparent"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:contentDescription="YouTube" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

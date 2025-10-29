@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_blue">
+
+    <!-- ===== HEADER / TOP BAR ===== -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@color/header_black"
+        android:gravity="center_vertical"
+        android:padding="8dp">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/logo"
+            android:layout_marginEnd="8dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Empowering The Nation"
+            android:textColor="@color/button_white"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    <!-- ===== MENU BAR (DROPDOWNS) ===== -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/button_white"
+        android:weightSum="2">
+
+        <Spinner
+            android:id="@+id/spinnerSixMonth"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:entries="@array/six_month_courses"
+            android:spinnerMode="dropdown"
+            android:background="@color/button_white"/>
+
+        <Spinner
+            android:id="@+id/spinnerSixWeek"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:entries="@array/six_week_courses"
+            android:spinnerMode="dropdown"
+            android:background="@color/button_white"/>
+    </LinearLayout>
+
+    <!-- ===== MENU BAR (BUTTONS) ===== -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/button_white"
+        android:weightSum="2">
+
+        <Button
+            android:id="@+id/btnCalculateFees1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Calculate Fees"
+            android:background="@color/button_white"
+            android:textColor="@color/text_black"/>
+
+        <Button
+            android:id="@+id/btnContactInfo1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Contact Info"
+            android:background="@color/button_white"
+            android:textColor="@color/text_black"/>
+    </LinearLayout>
+
+    <!-- ===== MAIN CONTENT ===== -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:gravity="center_horizontal">
+
+            <!-- Course Image -->
+            <ImageView
+                android:layout_width="220dp"
+                android:layout_height="150dp"
+                android:src="@drawable/details"
+                android:layout_marginBottom="16dp"/>
+
+            <!-- Course Title -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Life Skills"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/text_black"
+                android:layout_marginBottom="12dp"/>
+
+            <!-- Purpose -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Purpose:"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:textColor="@color/text_black"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="To develop essential personal, social, and practical skills that empower individuals to navigate daily life challenges effectively."
+                android:textColor="@color/text_black"
+                android:layout_marginBottom="16dp"/>
+
+            <!-- Content -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Content:"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:textColor="@color/text_black"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Communication and interpersonal skills\n• Time management and goal setting\n• Problem-solving and decision-making\n• Emotional intelligence and stress management\n• Financial literacy basics\n"
+                android:textColor="@color/text_black"
+                android:layout_marginBottom="20dp"/>
+
+            <!-- Buttons -->
+            <Button
+                android:id="@+id/btnCalculateFees"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Calculate Fees"
+                android:background="@drawable/rounded_button"
+                android:textColor="@color/button_white"
+                android:layout_marginBottom="12dp"/>
+
+            <Button
+                android:id="@+id/btnBackToCourses"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Back to Course List"
+                android:background="@drawable/rounded_button"
+                android:textColor="@color/button_white"
+                android:layout_marginBottom="12dp"/>
+
+            <Button
+                android:id="@+id/btnContactInfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Get our Contact Info"
+                android:background="@drawable/rounded_button"
+                android:textColor="@color/button_white"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

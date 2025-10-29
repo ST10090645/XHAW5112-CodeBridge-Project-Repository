@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E3F2FD"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Page Title -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Contact Us"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#2196F3"
+            android:gravity="center"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Sandton Venue -->
+        <TextView
+            android:text="Sandton Venue"
+            android:textColor="#2196F3"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_marginBottom="4dp"
+            android:layout_height="48dp"
+            android:layout_width="match_parent"/>
+
+        <TextView
+            android:text="🕘 Mon–Fri, 8 AM – 4 PM"
+            android:layout_height="48dp"
+            android:layout_width="match_parent"/>
+
+        <TextView
+            android:text="🎓 Domestic Worker, Gardener, Housekeeping, Cooking"
+            android:layout_height="48dp"
+            android:layout_width="match_parent"/>
+
+
+        <TextView
+            android:text="🚌 Near Gautrain and taxi routes"
+            android:layout_height="48dp"
+            android:layout_width="match_parent"/>
+
+
+        <TextView
+            android:text="🌟 Modern facilities with computer labs and kitchens"
+            android:layout_marginBottom="12dp"
+            android:layout_height="48dp"
+            android:layout_width="match_parent"/>
+
+        <!-- Randburg Venue -->
+        <TextView
+            android:text="Randburg Venue"
+            android:textColor="#2196F3"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_marginBottom="4dp"
+            android:layout_height="48dp"
+            android:layout_width="match_parent"/>
+
+        <TextView
+            android:text="🕘 Mon–Sat, 9 AM – 5 PM"
+            android:layout_height="48dp"
+            android:layout_width="match_parent"/>
+
+
+        <TextView
+            android:text="🎓 Childcare, Landscaping, First Aid, Cleaning and Hygiene"
+            android:layout_height="48dp"
+            android:layout_width="match_parent"/>
+
+
+        <TextView
+            android:text="🚗 Ample parking, near bus and taxi ranks"
+            android:layout_height="48dp"
+            android:layout_width="match_parent"/>
+
+
+        <TextView android:text="🌟 Training gardens and childcare rooms"
+            android:layout_marginBottom="12dp"
+            android:layout_height="48dp"
+            android:layout_width="match_parent"/>
+
+        <!-- Soweto Venue -->
+        <TextView
+            android:text="Soweto Venue"
+            android:textColor="#2196F3"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_marginBottom="4dp"
+            android:layout_height="48dp"
+            android:layout_width="match_parent"/>
+
+        <TextView
+            android:text="🕘 Mon–Fri, 8 AM – 3 PM"
+            android:layout_height="48dp"
+            android:layout_width="match_parent"/>
+
+
+        <TextView
+            android:text="🎓 Domestic Worker, Home Management, Food Prep, Gardening"
+            android:layout_height="48dp"
+            android:layout_width="match_parent"/>
+
+
+        <TextView
+            android:text="🚍 Accessible by Rea Vaya and taxis"
+            android:layout_height="48dp"
+            android:layout_width="match_parent"/>
+
+
+        <TextView
+            android:text="🌟 Community-centred learning hub"
+            android:layout_marginBottom="16dp"
+            android:layout_height="48dp"
+            android:layout_width="match_parent"/>
+
+        <!-- Divider Line -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#BBDEFB"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Contact Info -->
+        <TextView
+            android:text="Contact Details"
+            android:textColor="#2196F3"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_marginBottom="8dp"
+            android:layout_height="48dp"
+            android:layout_width="match_parent"/>
+
+        <TextView
+            android:id="@+id/phoneNumber"
+            android:text="📞 Phone: 011 582 4127"
+            android:textColor="#000000"
+            android:layout_marginBottom="4dp"
+            android:layout_height="48dp"
+            android:layout_width="match_parent"/>
+
+        <TextView
+            android:id="@+id/emailAddress"
+            android:text="✉️ Email: EmpoweringNation@gmail.com"
+            android:textColor="#000000"
+            android:layout_marginBottom="20dp"
+            android:layout_height="48dp"
+            android:layout_width="match_parent"/>
+
+        <!-- Back to Home Button -->
+        <Button
+            android:id="@+id/btnBackHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back to Home"
+            android:backgroundTint="#2196F3"
+            android:textColor="#FFFFFF"
+            android:layout_gravity="center"
+            android:paddingHorizontal="20dp"
+            android:paddingVertical="10dp"
+            android:translationY="-35dp"/>
+
+    </LinearLayout>
+</ScrollView>

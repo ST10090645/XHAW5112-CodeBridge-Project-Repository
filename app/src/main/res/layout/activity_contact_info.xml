@@ -1,0 +1,109 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_blue">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <!-- Venue Info -->
+        <TextView
+            android:id="@+id/txtVenueName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Venue Name"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="@color/text_black"
+            android:layout_marginBottom="12dp"/>
+
+        <TextView
+            android:id="@+id/txtVenueHours"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Operating Hours"
+            android:textColor="@color/text_black"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/txtVenueCourses"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Courses"
+            android:textColor="@color/text_black"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/txtVenueTransport"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Transport"
+            android:textColor="@color/text_black"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/txtVenueHighlight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Highlight"
+            android:textColor="@color/text_black"
+            android:layout_marginBottom="20dp"/>
+
+        <!-- Buttons -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:layout_marginBottom="12dp">
+
+            <Button
+                android:id="@+id/btnPrevVenue"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Previous Venue"
+                android:background="@drawable/rounded_button"
+                android:textColor="@color/button_white"
+                android:layout_marginEnd="6dp"/>
+
+            <Button
+                android:id="@+id/btnNextVenue"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Next Venue"
+                android:background="@drawable/rounded_button"
+                android:textColor="@color/button_white"
+                android:layout_marginStart="6dp"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnBookForCourses"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Calculate Fees and Book for Courses"
+            android:background="@drawable/rounded_button"
+            android:textColor="@color/button_white"
+            android:layout_marginBottom="20dp"/>
+
+        <!-- Contact Info -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="📞 Phone: 011 582 4127"
+            android:textSize="16sp"
+            android:textColor="@color/text_black"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="📧 Email: EmpoweringNation@gmail.com"
+            android:textSize="16sp"
+            android:textColor="@color/text_black"/>
+    </LinearLayout>
+</ScrollView>

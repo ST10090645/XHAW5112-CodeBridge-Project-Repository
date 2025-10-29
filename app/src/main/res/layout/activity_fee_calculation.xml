@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollViewFees"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="#C9E6F0"
+    android:padding="16dp">
+
+    <!-- Inner content container must WRAP_CONTENT -->
+    <LinearLayout
+        android:id="@+id/rootLinearFees"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Header -->
+        <TextView
+            android:id="@+id/tvHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Empowering The Nation"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:padding="12dp"
+            android:background="#000000" />
+
+        <!-- Info Card -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/rounded_card"
+            android:padding="16dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="How quotes and discounts work"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Select your courses and click Calculate Fees.\n• Discounts: 2 = 5%, 3 = 10%, 4+ = 15%.\n• Click Make a Booking to be contacted."
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <!-- Contact Info -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Your Contact Info"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_marginBottom="12dp" />
+
+        <EditText
+            android:id="@+id/etName"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Name"
+            android:background="@drawable/rounded_input"
+            android:padding="10dp"
+            android:layout_marginBottom="8dp" />
+
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:background="@drawable/rounded_input"
+            android:padding="10dp"
+            android:layout_marginBottom="8dp" />
+
+        <EditText
+            android:id="@+id/etPhone"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Phone"
+            android:inputType="phone"
+            android:background="@drawable/rounded_input"
+            android:padding="10dp"
+            android:layout_marginBottom="8dp" />
+
+        <EditText
+            android:id="@+id/etAge"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Age"
+            android:inputType="number"
+            android:background="@drawable/rounded_input"
+            android:padding="10dp"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Six-month Courses -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Six-month Courses (R1500 each)"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="8dp">
+
+            <CheckBox
+                android:id="@+id/cbFirstAid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="First Aid" />
+
+            <CheckBox
+                android:id="@+id/cbLandscaping"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Landscaping" />
+
+            <CheckBox
+                android:id="@+id/cbSewing"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sewing" />
+
+            <CheckBox
+                android:id="@+id/cbLifeSkills"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Life Skills" />
+        </LinearLayout>
+
+        <!-- Six-week Courses -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Six-week Courses (R750 each)"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:id="@+id/cbChildMinding"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Child Minding" />
+
+            <CheckBox
+                android:id="@+id/cbCooking"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cooking" />
+
+            <CheckBox
+                android:id="@+id/cbGardenMaintenance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Garden Maintenance" />
+        </LinearLayout>
+
+        <!-- Buttons and Result -->
+        <Button
+            android:id="@+id/btnCalculate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Calculate Fees"
+            android:background="#000000"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="20dp" />
+
+        <TextView
+            android:id="@+id/txtTotal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Total Fees will appear here"
+            android:textSize="16sp"
+            android:padding="10dp"
+            android:layout_marginTop="12dp"
+            android:background="#FFFFFF" />
+
+        <Button
+            android:id="@+id/btnConfirmSend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Confirm and Send Message"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#2196F3"
+            android:layout_gravity="center"
+            android:paddingHorizontal="20dp"
+            android:paddingVertical="10dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="20dp" />
+
+        <Button
+            android:id="@+id/btnBackHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back to Home"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:backgroundTint="#2196F3"
+            android:textColor="#FFFFFF"
+            android:paddingHorizontal="18dp"
+            android:paddingVertical="10dp" />
+
+    </LinearLayout>
+</ScrollView>
