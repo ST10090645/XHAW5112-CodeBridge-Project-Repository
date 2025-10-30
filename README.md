@@ -163,6 +163,18 @@ These short courses run for **six weeks**, providing certified training in essen
 - **Responsiveness:** Designed to adjust smoothly across various devices.
 
 ---
+## Screenshots
+
+**Website**
+![WhatsApp Image 2025-10-30 at 20 39 30_882c9070](https://github.com/user-attachments/assets/3dbae6d2-f583-494b-a0f4-1c441e646e9b)
+![WhatsApp Image 2025-10-30 at 20 39 30_0a88e84f](https://github.com/user-attachments/assets/915c0787-841a-4035-9f84-096fddd2e2e5)
+![WhatsApp Image 2025-10-30 at 20 39 30_2adb61ee](https://github.com/user-attachments/assets/2b65e8fe-8ad3-407a-9bdb-d1a28e94523b)
+![WhatsApp Image 2025-10-30 at 20 39 31_341ca624](https://github.com/user-attachments/assets/7df3eab3-cfa8-4787-8fb6-b655c8d6188c)
+![WhatsApp Image 2025-10-30 at 20 39 31_59d1e97c](https://github.com/user-attachments/assets/368c50f7-cb1b-406c-a988-1351361b7056)
+![WhatsApp Image 2025-10-30 at 20 39 31_6ba08eb1](https://github.com/user-attachments/assets/f5aef96b-14ca-40e3-b3b6-7ccb36aaf1f3)
+![WhatsApp Image 2025-10-30 at 20 39 32_613b7777](https://github.com/user-attachments/assets/17cac768-f099-46e3-90f7-afd75fa9236b)
+![WhatsApp Image 2025-10-30 at 20 39 32_ae23558d](https://github.com/user-attachments/assets/b882eae6-82c6-4eee-9038-2c5b6ba81b24)
+
 
 
 
