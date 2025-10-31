@@ -136,7 +136,7 @@ These short courses run for **six weeks**, providing certified training in essen
 
 ###  Technologies Used
 - **Frontend (Website):** HTML5, CSS3, JavaScript (React)
-- **Mobile App:** React Native (cross-platform Android/iOS)
+- **Mobile App:** Android Studio
 - **Styling Framework:** Tailwind CSS / Native Styling
 - **Version Control:** Git & GitHub
 - **Design Tools:** Figma (for UI/UX layout)
@@ -174,6 +174,35 @@ These short courses run for **six weeks**, providing certified training in essen
 ![WhatsApp Image 2025-10-30 at 20 39 31_6ba08eb1](https://github.com/user-attachments/assets/f5aef96b-14ca-40e3-b3b6-7ccb36aaf1f3)
 ![WhatsApp Image 2025-10-30 at 20 39 32_613b7777](https://github.com/user-attachments/assets/17cac768-f099-46e3-90f7-afd75fa9236b)
 ![WhatsApp Image 2025-10-30 at 20 39 32_ae23558d](https://github.com/user-attachments/assets/b882eae6-82c6-4eee-9038-2c5b6ba81b24)
+
+
+---
+## References
+
+1. Independent Institute of Education, 2025. Web Development (Introduction) [WEDE5020]. [online via internal VLE] The Independent Institute of Education. Available at: https://advtechonline.sharepoint.com/:w:/r/sites/TertiaryStudents/_layouts/15/Doc.aspx?sourcedoc=%7B5E550732-60C9-4A33-8FD3-1E01B5AA005B%7D&file=WEDE5020MM.docx&action=default&mobileredirect=true [Accessed 02 October 2025].
+
+2. Independent Institute of Education, 2025. Higher Certificate in Mobile Application and Web Development, Work Intergrated Learning [XHAW5112]. [online via internal VLE] The Independent Institute of Education. Available at: https://advtechonline.sharepoint.com/:w:/r/sites/TertiaryStudents/_layouts/15/Doc.aspx?sourcedoc=%7B022BFEDB-81D5-47FC-98E0-571385158886%7D&file=XHAW5112_MM.docx&action=default&mobileredirect=true [Accessed 30 July 2025].
+
+3. Figma, 2016. [online] Available at www.figma.com [Accessed 02 August 2025].
+
+4. Pixabay, 2016. Integration, Welcome, Shaking Hands royalty-free stock illustration. [electronic print] Available at: https://pixabay.com/illustrations/integration-welcome-shaking-hands-1777536/ [Accessed 07 October 2025].
+
+5. Pixabay, 2014. Kindergarden, Preschooler room, Playroom image. [electronic print] Available at: https://pixabay.com/photos/kindergarden-preschooler-room-569198/ [Accessed 07 October 2025].
+
+6. Pixabay, 2019. First aid, Puppet, Exercise image. [electronic print] Available at: https://pixabay.com/photos/first-aid-puppet-exercise-aed-4089599/ [Accessed 07 October 2025].
+
+7. Pixabay, 2017. Garden, Nature, Grass cutter image. [electronic print] Available at: https://pixabay.com/photos/garden-grass-cutter-gardening-grass-2179095/ [Accessed 07 October 2025].
+
+8. Pixabay, 2023. Sew, Handwork, Sewing machine image. [electronic print] Available at: https://pixabay.com/photos/sew-handwork-sewing-machine-needle-8353303/ [Accessed 07 October 2025].
+
+9. Pixabay, 2017. Stickies, Post-it, Note image. [electronic print] Available at: https://pixabay.com/photos/stickies-post-it-note-business-2852375/ [Accessed 07 October 2025].
+
+10. Pixabay, 2017. Cooking, Pies, Vareniki image. [electronic print] Available at: https://pixabay.com/photos/cooking-pies-vareniki-pelmeni-cook-2132874/ [Accessed 07 October 2025].
+
+11. Pixabay, 2018. Shower, Irrigation, To water image. [electronic print] Available at: https://pixabay.com/photos/shower-irrigation-to-water-garden-3512422/ [Accessed 07 October 2025].
+
+
+
 
 
 
